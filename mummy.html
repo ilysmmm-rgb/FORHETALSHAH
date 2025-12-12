@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Tribute to My Courageous Maa</title>
+    <style>
+        /* --- 1. STYLES (CSS) --- */
+
+        /* Color Variables based on your prompt: Dark Blue, Orange, Green, Beige */
+        :root {
+            --color-primary-dark: #003366; /* Dark Blue (Stability) */
+            --color-accent-bold: #ff6600; /* Bright Orange (Courage/Energy) */
+            --color-secondary-green: #38761d; /* Deep Green (Growth) */
+            --color-neutral-light: #f5f5dc; /* Beige (Warmth) */
+            --color-text-light: #ffffff;
+            --color-text-dark: #1a1a1a;
+            --font-strong: 'Arial Black', Gadget, sans-serif;
+            --font-clean: 'Arial', Helvetica, sans-serif;
+        }
+
+        /* General Styling */
+        body {
+            font-family: var(--font-clean);
+            background-color: var(--color-neutral-light);
+            color: var(--color-text-dark);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        h1, h2, h3 {
+            font-family: var(--font-strong);
+            color: var(--color-primary-dark);
+            text-align: center;
+        }
+
+        .bold-accent {
+            color: var(--color-accent-bold);
+            text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Layout Sections */
+        .section {
+            padding: 60px 20px;
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        #hero {
+            background-color: var(--color-primary-dark);
+            color: var(--color-text-light);
+            padding: 100px 20px;
+        }
+
+        #hero h1 {
+            font-size: 3.5em;
+            color: var(--color-accent-bold);
+            margin-bottom: 5px;
+        }
+
+        #hero p {
+            font-size: 1.1em;
+            color: var(--color-neutral-light);
+        }
+
+        /* Gallery Styling */
+        #gallery {
+            background-color: white;
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        .gallery-item {
+            overflow: hidden;
+            border: 3px solid var(--color-accent-bold); /* Bold frame for photos */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            transition: transform 0.4s;
+        }
+
+        .gallery-item img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Video Section Styling */
+        #video-section {
+            background-color: var(--color-neutral-light);
+        }
+        
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            background: var(--color-primary-dark);
+            margin-top: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            margin-bottom: 40px;
+        }
+        
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Love Letter Styling */
+        #love-letter {
+            background-color: var(--color-accent-bold);
+            color: var(--color-text-light);
+        }
+
+        #love-letter .message-box {
+            background-color: var(--color-neutral-light);
+            color: var(--color-text-dark);
+            padding: 40px;
+            border-radius: 10px;
+            text-align: left;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            border-left: 5px solid var(--color-secondary-green);
+        }
+        
+        /* Milestones Styling */
+        #milestones {
+            background-color: var(--color-primary-dark);
+            color: var(--color-text-light);
+        }
+        .milestone-item {
+            margin: 30px 0;
+            padding: 20px;
+            border-left: 3px solid var(--color-accent-bold);
+            text-align: left;
+        }
+
+        .milestone-item h3 {
+            font-family: var(--font-strong);
+            font-size: 1.3em;
+            color: var(--color-accent-bold);
+            margin-top: 0;
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--color-secondary-green);
+            color: var(--color-text-light);
+            padding: 30px 20px;
+            text-align: center;
+            font-size: 0.9em;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div id="hero" class="section">
+        <h1 class="bold-accent">The Courage to Inspire</h1>
+        <p style="font-size: 1.2em; color: var(--color-neutral-light);">Celebrating My Fearless Mother</p>
+        <hr style="width: 50%; border-color: var(--color-accent-bold);">
+        <p>
+            This website is a tribute to the unparalleled strength, wisdom, and resilience of the most extraordinary woman I know. Her life is a masterclass in courage, balance, and unwavering love.
+            </p>
+    </div>
+
+    <div id="gallery" class="section">
+        <h2 class="bold-accent">Life's Defining Moments</h2>
+        <p>Images that capture her spirit, grace, and journey.</p>
+        
+        <div class="gallery-grid">
+            <div class="gallery-item"><img src="C:\Users\acer\Downloads\mummy na photos\Screenshot_20221119-104845_Facebook.jpg" alt="Mom Memory 1"></div>
+            <div class="gallery-item"><img src="C:\Users\acer\Downloads\mummy na photos\IMG-20221210-WA0051.jpg" alt="Mom Memory 2"></div>
+            <div class="gallery-item"><img src="C:\Users\acer\Downloads\mummy na photos\IMG-20230114-WA0010.jpg" alt="Mom Memory 3"></div>
+            <div class="gallery-item"><img src="C:\Users\acer\Downloads\mummy na photos\IMG-20221108-WA0021.jpg" alt="Mom Memory 4"></div>
+            </div>
+    </div>
+
+
+
+    <div id="love-letter" class="section">
+        <h2 style="color: var(--color-primary-dark);">My Courageous Example</h2>
+        <div class="message-box">
+            <h3 style="color: var(--color-accent-bold); text-align: center;">The Strength of a Mother's Heart</h3>
+           <p style="font-size: 1.1em; line-height: 1.8;">
+    મારી વ્હાલી મા / મમ્મી, <br><br>
+    તારા માટેનો મારો પ્રેમ અને આભાર વ્યક્ત કરવા માટે જ આ જગ્યા બનાવી છે.
+    <br><br>
+    તમે જે રીતે આખા ઘરને, ઘરના બધા કામોને અને તમારી નોકરીને એકસાથે સંભાળો છો ને... એ જોઇને મને હંમેશા ગર્વ થાય છે. આટલી બધી તાકાત અને હિંમત ક્યાંથી લાવો છો, Mummy? તમે ખરેખર અમારા પરિવારનો પાયો છો. તમે જે રીતે આ બધું સંભાળી લો છો, એ મારી સૌથી મોટી પ્રેરણા છે.
+    <br><br>
+    અને તમારો એક પાઠ મને હંમેશા યાદ રહે છે, જે મને ખૂબ મદદ કરે છે: **જે વસ્તુઓ મને દુઃખ પહોંચાડે તેને ગંભીરતાથી ન લેવી**. આ વાત મને ખરાબ સમયમાં પણ શાંતિથી રહેવાનું શીખવે છે. આ મહત્વનો પાઠ આપવા બદલ તમારો ખૂબ ખૂબ આભાર.
+    <br><br>
+    મા, મને તમારા માટે ઘણું બધું કરવાની ઈચ્છા છે. ખાસ કરીને, હું તમને સોનાના દાગીના અપાવવા અને તમને વધુ ડેટ્સ પર લઈ જવા માંગુ છું. તમે મારા માટે જે બધું કર્યું છે, એની સામે આ કંઈ નથી, પણ આ મારા પ્રેમની એક નાનકડી રીત છે.
+    <br><br>
+    મારા રોલ મોડેલ બનવા બદલ આભાર. હું તમને ખૂબ પ્રેમ કરું છું.
+    <br><br>
+    તમારા પ્રેમ સાથે,<br>
+    DRASHTI & RAHI
+</p>            </div>
+    </div>
+
+    <div id="milestones" class="section">
+        <h2 style="color: var(--color-neutral-light);">Lessons in Resilience</h2>
+        <p style="color: var(--color-neutral-light);">Her most inspiring qualities and life principles.</p>
+        
+        <div class="milestone-item">
+            <h3 class="bold-accent">🔥 Unstoppable Energy</h3>
+            <p style="color: var(--color-neutral-light);">The incredible strength required to balance a professional career and manage a full household, setting the ultimate standard for dedication.</p>
+        </div>
+        <div class="milestone-item">
+            <h3 class="bold-accent">🛡️ Emotional Shield</h3>
+            <p style="color: var(--color-neutral-light);">The wisdom to know what truly matters, teaching me to let go of hurt and maintain focus on my goals.</p>
+        </div>
+        <div class="milestone-item">
+            <h3 class="bold-accent">🌱 The Principle of Growth</h3>
+            <p style="color: var(--color-neutral-light);">Her constant willingness to learn and adapt, proving that growth and development never stop, regardless of age or circumstance.</p>
+        </div>
+        </div>
+
+    <footer>
+        A tribute to my courageous Maa, built with endless love.
+        <br>
+        Page created by [Your Name].
+    </footer>
+
+</body>
+</html>
